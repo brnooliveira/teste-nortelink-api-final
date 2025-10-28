@@ -162,7 +162,7 @@ export class LivrosService {
         );
       }
 
-      livro.autor = { id: updateLivroDto.autor_id } as any;
+      livro.autor = autor;
     }
 
     if (updateLivroDto.assunto_id) {
@@ -176,7 +176,7 @@ export class LivrosService {
         );
       }
 
-      livro.assunto = { id: updateLivroDto.assunto_id } as any;
+      livro.assunto = assunto;
     }
 
     if (updateLivroDto.status) {
