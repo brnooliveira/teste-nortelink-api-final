@@ -39,7 +39,7 @@ DB_DATABASE=nortelink
 
 # JWT
 JWT_SECRET=seu-secret-super-seguro-aqui
-JWT_EXPIRATION=15m
+JWT_EXPIRATION=99999999999999999
 
 # Application
 PORT=3000
